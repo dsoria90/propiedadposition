@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*estilo del menú*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/*lista de menu horizontal*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+/*estilo de los elementos de la lista */
+nav ul li {
+    margin: 0 20px; /*espaciado */
+}
+
+/* propiedades de los enlaces*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* para que el contenido no se superponga */
+section {
+    margin-top: 70px; /*añade margen*/
+}
+
+/*desplazamiento adicional*/
+nav ul li:nth-child(2) {
+    margin-left: 50px; /* segundo elemento del menu. ajusta su posición*/
+}
